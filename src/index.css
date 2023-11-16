@@ -1,0 +1,84 @@
+* {
+  font-family: 'Source Sans Pro Topnav', sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: #f1f1f1;
+  padding: 10px 15px 10px 15px;
+  transition: 0.25s linear;
+}
+
+a:hover {
+  background-color: #535668;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  background-color: #282A35;
+  padding: 0.5em;
+  justify-content: space-evenly;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  background-color: #282A35;
+  padding: 0.5em;
+  justify-content: space-evenly;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: black;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: black;
+  color: white;
+}
